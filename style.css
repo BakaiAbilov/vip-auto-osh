@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #eeeeee;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url('https://www.hdcarwallpapers.com/walls/lexus_lx_570_s_black_edition_2020_5k_2-HD.jpg') center / cover;
+  box-shadow: inset 0px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  /* border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  background-color: rgb(255, 198, 93); */
+}
+
+.blur {
+  backdrop-filter: blur(6px);
+  height: 100%;
+}
+
+
+
+.nav {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.imgLogo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navLinks li {
+  font-size: 16px;
+  color: white;
+}
+.navLinks li a:hover {
+  border-bottom: 1px solid white;
+}
+
+.iconLinks {
+  display: flex;
+  color: white;
+
+}
+
+.iconLinks li:first-child {
+  font-size: 30px;
+  cursor: pointer;
+  color: purple;
+}
+
+.iconLinks li:last-child {
+  margin-left: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  color: green;
+}
+
+.aboutSite {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+
+.aboutSite span {
+  width: auto;
+  font-size: 40px;
+  text-shadow: 1px 2px 5px #a79640;
+  font-weight: 1000;
+}
+
+.aboutSite p {
+  font-size: 18px;
+  margin-top: 20px;
+  text-shadow: -4px 2px 5px #C39F5C;
+}
+
+.aboutSite h2 {
+  margin-top: 40px;
+  text-shadow: 0px 2px 5px #968e8e;
+}
+
+
+.sect1 {
+  width: 100%;
+  height: auto;
+  /* background-color: rgba(156, 103, 5, 0.322); */
+}
+
+.sect1 h1 {
+  text-align: center;
+  padding: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.sect1 .carsDiv {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 350px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+
+
+.card h2 {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.cardImg {
+  border-bottom: 1px solid black;
+}
+
+.cardImg img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.cardImg img:hover {
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  transition: .6s;
+  cursor: pointer;
+}
+
+
+.sect2 {
+  width: 100%;
+  height: 100vh;
+}
+
+.sect2 h1 {
+  text-align: center;
+  padding: 30px 0;
+  width: auto;
+}
+
+.sect2 .icons {
+  width: auto;
+  height: auto;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.sect2 .icons2 {
+  width: auto;
+  height: auto;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.iconsDiv {
+  width: 180px;
+  height: 120px;
+  /* border: 1px solid black; */
+  margin: 50px 0;
+}
+
+.iconsDiv p {
+  padding-top: 15px;
+}
+
+.iconsDiv img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.sect3 {
+  width: auto;  
+  height: auto;
+}
+
+.security {
+  display: flex;
+  margin: 10px 10%;
+  justify-content: space-between;
+  
+}
+
+.left {
+  width: auto;
+}
+
+.left h1 {
+  margin-bottom: 20px;
+}
+
+.right {
+  width: 40%;
+  height: 350px;
+  margin: 40px 0;
+  background: url('https://avatars.mds.yandex.net/i?id=9da144bb23b0a0f0b57d71eea4013e5fe552f90a-8253870-images-thumbs&n=13') center / cover;
+}
+
+
+@media only screen and (max-width: 320px) {
+  .navLinks li {
+    font-size: 10px;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 820px ) {
+  .right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .navLinks li {
+    font-size: 10px;
+  }
+  .right {
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+  .sect3 {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+    .navLinks li {
+      font-size: 10px;
+    }
+    .right {
+      display: none;
+    }
+    .left {
+      width: 100%;
+    }
+    .sect3 {
+      margin-top: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 333px) {
+  
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  
+    .imgLogo {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+  
+    .cardImg img {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  @media only screen and (max-width: 290px) {
+    .aboutSite span {
+      font-size: 20px;
+    }
+  
+    .aboutSite p {
+      font-size: 15px;
+    }
+  
+    .cardImg img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
